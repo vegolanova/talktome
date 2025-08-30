@@ -1,9 +1,10 @@
-from document_loader import ScriptLoader
-from rag_pipeline import create_rag_chain
-from utils import select_lesson_file
-
+from rag.document_loader import ScriptLoader
+from rag.rag_pipeline import create_rag_chain
+from rag.utils import select_lesson_file
+from integration.input import get_transcript
+print(get_transcript())
 def main():
-    SCRIPTS_PATH = '../data/scripts/shrek'
+    SCRIPTS_PATH = 'data/scripts/shrek'
 
     print("Please select a lesson plan file to begin...")
     lesson_file_path = select_lesson_file()
@@ -29,7 +30,7 @@ def main():
         print(f"Sorry, I couldn't find any dialogue for '{character_name}'. Please check the name and try again.")
         return
 
-    # RAG chain
+    # rag chain
     rag_chain = create_rag_chain(docs, character_name)
 
     print(f"\n{character_name.capitalize()} is ready to talk! (Type 'exit' to quit)")
