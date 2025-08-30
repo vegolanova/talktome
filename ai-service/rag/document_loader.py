@@ -10,6 +10,9 @@ class ScriptLoader(BaseLoader):
 
     def load(self) -> List[Document]:
         docs = []
+        current_directory = os.getcwd()
+        print(current_directory)
+
         character_line_prefix = f"{self.character_name}:"
 
         for filename in os.listdir(self.directory_path):
