@@ -1,9 +1,20 @@
 from document_loader import ScriptLoader
 from rag_pipeline import create_rag_chain
-
+from utils import select_lesson_file
 
 def main():
     SCRIPTS_PATH = '../data/scripts/shrek'
+
+    print("Please select a lesson plan file to begin...")
+    lesson_file_path = select_lesson_file()
+
+    if not lesson_file_path:
+        print("No lesson file selected. Exiting the program.")
+        return
+
+    print(f"Loaded lesson: {lesson_file_path}")
+    # Here, you would add your lesson parsing logic from the previous step
+    # lesson = parse_lesson(lesson_file_path)
 
     # Choose character
     character_name = input("Which character would you like to talk to? (e.g., Shrek, Donkey): ")
@@ -21,7 +32,7 @@ def main():
     # RAG chain
     rag_chain = create_rag_chain(docs, character_name)
 
-    print(f"\n--- {character_name.capitalize()} is ready to talk! (Type 'exit' to quit) ---")
+    print(f"\n{character_name.capitalize()} is ready to talk! (Type 'exit' to quit)")
 
     # Start a conversation loop
     while True:

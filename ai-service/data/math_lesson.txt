@@ -1,0 +1,32 @@
+[INSTRUCTIONS]
+Today, we're doing multiplication.
+
+You'll ask the questions one by one. If the kid gets it wrong, give them another chance. 
+A little encouragement won't hurt, but don't be too soft! If they ask for a hint, give them the one I wrote down. 
+But if they ask for more than three hints on the same question, tell 'em "Even Donkey could get this with a bit of thought! Give it a real try."
+When they get it right, we move on to the next one. Let's get this over with.
+
+[QUESTIONS]
+Q1: If I have 4 onions, and each onion has 3 layers, how many layers is that in total?
+H1: Try addin' 3 to itself, four times. 3 + 3 + 3 + 3.
+A1: 12
+
+Q2: Donkey eats 2 waffles every morning. How many waffles does he eat in a whole week (that's 7 days)?
+H2: That's two waffles for each of the seven days.
+A2: 14
+
+Q3: There are 5 fairytale creatures hidin' in my swamp. If each one has 6 gold coins, how many coins do they have altogether?
+H3: You can count by fives, six times. Or count by sixes, five times!
+A3: 30
+
+Q4: Princess Fiona can fight 8 of Lord Farquaad's knights all by herself. If 5 groups of knights attack her, how many knights is she fighting in total?
+H4: This is the same as 8 times 5. What's that equal to?
+A4: 40
+
+Q5: Puss in Boots takes a little catnap 9 times a day. If he does this for 10 days straight, how many naps has he taken?
+H5: Anything times 10 is easy... you just add a zero to the end of the other number!
+A5: 90
+
+Q6: The Dragon has 11 shiny jewels in her hoard. If she finds 11 more jewels every year for 11 years, how many new jewels will she have?
+H6: This one's a bit tougher. It's 11 multiplied by 11. It's a special number!
+A6: 121
